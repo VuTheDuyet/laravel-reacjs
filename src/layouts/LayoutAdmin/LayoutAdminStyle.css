@@ -1,0 +1,194 @@
+body {
+    background-color: #f0f0f1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hdl-header {
+    height: 30px;
+    line-height: 30px;
+    background-color: #1d2327;
+    color: #c3c4c7;
+}
+
+.hdl-header ul.menutop {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.hdl-header ul.menutop:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.hdl-header ul.menutop li {
+    float: left;
+}
+
+.hdl-header ul.menutop li a {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    height: 30px;
+    display: block;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+.hdl-header ul.menutop li.text-phai {
+    float: right;
+}
+
+.dashboard-name {
+    background-color: #2271b1;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+.hdl-left {
+    min-height: calc(100vh - 30px) !important;
+    background-color: #1d2327;
+}
+
+.hdl-content {
+    min-height: calc(100vh - 30px) !important;
+}
+
+.content-header h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+ul.manager {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul.manager:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+ul.manager li {
+    float: left;
+    border-right: 1px solid #808080;
+}
+
+ul.manager li a {
+    display: block;
+    padding: 0px 5px;
+    line-height: 14px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+ul.manager li:first-child a {
+    padding-left: 0px;
+}
+
+ul.manager li:last-child {
+    border-right: none;
+}
+
+.content-header input.search {
+    padding: 0px;
+    border-radius: 7px;
+    border: 1px solid #c1c1c1;
+    padding: 0px 10px;
+}
+
+button.btnsearch,
+button.btnapply,
+button.btnfilter {
+    padding: 0px;
+    border-radius: 3px;
+    border: 1px solid #c1c1c1;
+    padding: 0px 10px;
+}
+
+.mainmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mainmenu ul li.hdlitem a {
+    text-decoration: none;
+    color: white;
+    line-height: 26px;
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    transition: all 0.5;
+    padding-left: 30px;
+}
+
+.mainmenu ul li.hdlitem a:hover {
+    background-color: rgb(40, 43, 43);
+}
+
+.mainmenu ul li.item-sub ul.submenu {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.mainmenu ul li.active ul.submenu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5;
+}
+
+.mainmenu ul li.hdlitem {
+    position: relative;
+}
+
+.mainmenu ul li.hdlitem svg.icon-left {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.mainmenu ul li.hdlitem svg.icon-right {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+
+.datarow .function_style {
+    visibility: hidden;
+}
+
+.datarow:hover .function_style {
+    visibility: visible;
+}
+
+/**/
+.btn-add,
+.btn-edit {
+    border: 1px solid #c1c1c1;
+    padding: 2px 10px;
+    margin-left: 10px;
+    background-color: #c2c2c2;
+    color: black;
+}
+
+.btn-add:hover,
+.btn-edit:hover {
+    border: 1px solid #c1c1c1;
+    background-color: #c2c2c2;
+}
+.margin-left-submenu {
+    margin-left: 15px;
+}
